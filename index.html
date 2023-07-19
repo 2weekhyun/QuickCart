@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀵카트</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script defer src="js/toggleBtn.js"></script>
+    <script defer src="js/main/swiper.js"></script>
+</head>
+<body>
+<!-- Desktop -->
+  <div id="D_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="header_top">
+          <h1><a href="index.html"></a></h1>
+          <div class="log_list">
+            <button onclick="location.href='sign_in.html'">로그인</button>
+            <button onclick="location.href='sign_up.html'">회원가입</button>
+            <button>장바구니</button>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <ul>
+            <li><a href="sub_ramen.html">라면</a></li>
+            <li><a href="sub_snack.html">스낵</a></li>
+            <li><a href="sub_drink.html">음료</a></li>
+            <li><a href="sub_confood.html">간편식</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <div class="contents">
+      <div class="contents_wrap">
+        <div class="swiper main_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1"><a href="sub_ramen.html"></a></div>
+            <div class="swiper-slide swiper-slide2"><a href="sub_confood.html"></a></div>
+            <div class="swiper-slide swiper-slide3"><a href="sub_drink.html"></a></div>
+            <div class="swiper-slide swiper-slide4"><a href="sub_ramen.html"></a></div>
+            <div class="swiper-slide swiper-slide5"><a href="sub_ramen.html"></a></div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="swiper DTbrand_slider">
+          <h1>브랜드</h1>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide brand1"><a href="#"></a></div>
+            <div class="swiper-slide brand2"><a href="#"></a></div>
+            <div class="swiper-slide brand3"><a href="#"></a></div>
+            <div class="swiper-slide brand4"><a href="#"></a></div>
+            <div class="swiper-slide brand5"><a href="#"></a></div>
+            <div class="swiper-slide brand6"><a href="#"></a></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="D_hot_item">
+          <h1>인기상품</h1>
+          <div class="D_hot_list">
+            <div class="title">
+              <h3>라면</h3>
+              <span class="more_btn"><a href="sub_ramen.html">더보기</a></span>
+            </div>
+            <ul class="D_ramen D_item_list">
+            </ul>
+
+            <div class="title">
+              <h3>스낵</h3>
+              <span class="more_btn"><a href="sub_snack.html">더보기</a></span>
+            </div>
+            <ul class="D_snack D_item_list">
+            </ul>
+
+            <div class="title">
+              <h3>음료</h3>
+              <span class="more_btn"><a href="sub_drink.html">더보기</a></span>
+            </div>
+            <ul class="D_drink D_item_list">
+            </ul>
+
+            <div class="title">
+              <h3>간편식</h3>
+              <span class="more_btn"><a href="sub_confood.html">더보기</a></span>
+            </div>
+            <ul class="D_confood D_item_list"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_wrap">
+          <div class="f_left">
+            <ul>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+            <div class="f_address">
+              <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+            </div>
+            <div class="copyright">
+              <span>Copyright ⓒ quickcart/index.html</span>
+              <div class="f_logo"></div>
+            </div>
+          </div>
+          <div class="f_right">
+            <p>유종석 | <span>mildmocha175@naver.com</span></p>
+            <p>이민희 | <span>minijjan@naver.com</span></p>
+            <p>이주현 | <span>zm0625@naver.com</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Desktop end -->
+
+
+<!-- Tablet -->
+  <div id="T_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="header_top">
+          <h1><a href="index.html"></a></h1>
+          <div class="T_menu_trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="T_nav">
+          <div class="T_nav_wrap">
+            <div class="T_sign">
+              <div><a href="sign_in.html">로그인</a></div>
+              <div><a href="sign_up.html">회원가입</a></div>
+            </div>
+            <div class="T_nav_list">
+              <ul>
+                <li><a href="sub_ramen.html">라면</a></li>
+                <li><a href="sub_snack.html">스낵</a></li>
+                <li><a href="sub_drink.html">음료</a></li>
+                <li><a href="sub_confood.html">간편식</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="contents">
+      <div class="contents_wrap">
+        <div class="swiper main_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1"><a href="sub_ramen.html"></a></div>
+            <div class="swiper-slide swiper-slide2"><a href="sub_confood.html"></a></div>
+            <div class="swiper-slide swiper-slide3"><a href="sub_drink.html"></a></div>
+            <div class="swiper-slide swiper-slide4"><a href="sub_ramen.html"></a></div>
+            <div class="swiper-slide swiper-slide5"><a href="sub_ramen.html"></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="swiper DTbrand_slider">
+          <h1>브랜드</h1>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide brand1"><a href="#"></a></div>
+            <div class="swiper-slide brand2"><a href="#"></a></div>
+            <div class="swiper-slide brand3"><a href="#"></a></div>
+            <div class="swiper-slide brand4"><a href="#"></a></div>
+            <div class="swiper-slide brand5"><a href="#"></a></div>
+            <div class="swiper-slide brand6"><a href="#"></a></div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <div class="T_hot_item">
+          <h1>인기상품</h1>
+          <div class="T_hot_list">
+            <div class="T_title">
+              <h3>라면</h3>
+              <span class="more_btn"><a href="sub_ramen.html">더보기</a></span>
+            </div>
+            <ul class="T_ramen T_item_list">
+            </ul>
+
+            <div class="T_title">
+              <h3>스낵</h3>
+              <span class="more_btn"><a href="sub_snack.html">더보기</a></span>
+            </div>
+            <ul class="T_snack T_item_list">
+            </ul>
+
+            <div class="T_title">
+              <h3>음료</h3>
+              <span class="more_btn"><a href="sub_drink.html">더보기</a></span>
+            </div>
+            <ul class="T_drink T_item_list">
+            </ul>
+
+            <div class="T_title">
+              <h3>간편식</h3>
+              <span class="more_btn"><a href="sub_confood.html">더보기</a></span>
+            </div>
+            <ul class="T_confood T_item_list"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="T_nav_open"></div>
+      <div class="T_footer">
+        <div class="T_footer_wrap">
+          <div class="T_f_left">
+            <ul>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+            <div class="T_f_address">
+              <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+            </div>
+            <div class="T_copyright">
+              <span>Copyright ⓒ quickcart/index.html</span>
+              <div class="T_f_logo"></div>
+            </div>
+          </div>
+          <div class="T_f_right">
+            <p>유종석 | <span>mildmocha175@naver.com</span></p>
+            <p>이민희 | <span>minijjan@naver.com</span></p>
+            <p>이주현 | <span>zm0625@naver.com</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Tablet end -->
+
+
+<!-- Mobile -->
+  <div id="M_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="header_top">
+          <h1><a href="index.html"></a></h1>
+          <div class="M_menu_trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="M_nav">
+          <div class="M_nav_wrap">
+            <div class="M_sign">
+              <div><a href="sign_in.html">로그인</a></div>
+              <div><a href="sign_up.html">회원가입</a></div>
+            </div>
+            <div class="M_nav_list">
+              <ul>
+                <li><a href="sub_ramen.html">라면</a></li>
+                <li><a href="sub_snack.html">스낵</a></li>
+                <li><a href="sub_drink.html">음료</a></li>
+                <li><a href="sub_confood.html">간편식</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="contents">
+      <div class="contents_wrap">
+        <div class="swiper main_slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide1">
+              <a href="sub_ramen.html">
+                <img src="img/banner_1.png" alt="다다익선, 있으면 있을수록 좋다-두고두고 먹는 자취템">
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+              <a href="sub_confood.html">
+                <img src="img/banner_2.png" alt="가벼운 마음으로 시작해요-가벼운 칼로리로 즐기는 오뚜기 모음전">
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide3">
+              <a href="sub_drink.html">
+                <img src="img/banner_3.png" alt="저분자 펩타이드 프로틴으로 더 빠른 체내 흡수. 100% 식물성 프로틴 음료-프로틴 드롭">
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide4">
+              <a href="sub_ramen.html">
+                <img src="img/banner_4.png" alt="4가지 과일이 들어가 더욱 깔끔하고 상큼해진 4과비빔면 출시">
+              </a>
+            </div>
+            <div class="swiper-slide swiper-slide5">
+              <a href="sub_ramen.html">
+                <img src="img/banner_5.png" alt="쿠티크 에센셜짜장 봉지라면 출시 이벤트-쿠티크 구매하고 선물받자!">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper M_brand_slide">
+          <h2>브랜드</h2>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide brand1"><a href="#"></a></div>
+            <div class="swiper-slide brand2"><a href="#"></a></div>
+            <div class="swiper-slide brand3"><a href="#"></a></div>
+            <div class="swiper-slide brand4"><a href="#"></a></div>
+            <div class="swiper-slide brand5"><a href="#"></a></div>
+            <div class="swiper-slide brand6"><a href="#"></a></div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="M_hot_item">
+          <h1>인기상품</h1>
+          <div class="M_hot_list">
+            <div class="M_title">
+              <h3>라면</h3>
+              <span class="more_btn"><a href="sub_ramen.html">더보기</a></span>
+            </div>
+            <ul class="M_ramen M_item_list">
+            </ul>
+
+            <div class="M_title">
+              <h3>스낵</h3>
+              <span class="more_btn"><a href="sub_snack.html">더보기</a></span>
+            </div>
+            <ul class="M_snack M_item_list">
+            </ul>
+
+            <div class="M_title">
+              <h3>음료</h3>
+              <span class="more_btn"><a href="sub_drink.html">더보기</a></span>
+            </div>
+            <ul class="M_drink M_item_list">
+            </ul>
+
+            <div class="M_title">
+              <h3>간편식</h3>
+              <span class="more_btn"><a href="sub_confood.html">더보기</a></span>
+            </div>
+            <ul class="M_confood M_item_list"></ul>
+          </div>
+        </div>
+      </div>
+      <div class="M_nav_open"></div>
+      <div class="footer">
+        <div class="footer_wrap">
+          <div class="f_top">
+            <ul>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+          </div>
+          <div class="f_address">
+            <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+          </div>
+          <div class="f_bottom">
+            <p>유종석<span>mildmocha175@naver.com</span></p>
+            <p>이민희<span>minijjan@naver.com</span></p>
+            <p>이주현<span>zm0625@naver.com</span></p>
+          </div>
+          <div class="copyright">
+            <span>Copyright ⓒ quickcart/index.html</span>
+            <div class="f_logo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Mobile end -->
+
+<!-- Desktop hot items list -->
+<script type="module" src="./js/main/D_main_RamenList.js"></script>
+<script type="module" src="./js/main/D_main_SnackList.js"></script>
+<script type="module" src="./js/main/D_main_DrinkList.js"></script>
+<script type="module" src="./js/main/D_main_ConfoodList.js"></script>
+<!-- Desktop hot items list end -->
+
+<!-- Tablet hot items list -->
+<script type="module" src="js/main/T_main_RamenList.js"></script>
+<script type="module" src="js/main/T_main_SnackList.js"></script>
+<script type="module" src="js/main/T_main_DrinkList.js"></script>
+<script type="module" src="js/main/T_main_ConfoodList.js"></script>
+<!-- Tablet hot items list end -->
+
+<!-- Mobile hot item list -->
+<script type="module" src="js/main/M_main_RamenList.js"></script>
+<script type="module" src="js/main/M_main_SnackList.js"></script>
+<script type="module" src="js/main/M_main_DrinkList.js"></script>
+<script type="module" src="js/main/M_main_ConfoodList.js"></script>
+<!-- Mobile hot item list end -->
+</body>
+</html>

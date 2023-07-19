@@ -1,0 +1,88 @@
+{
+    "MobileSubRamen": [
+        {
+            "id": 106,
+            "name": "BIG3 볶음김치면",
+            "img": "img/sub_data/ramen/BIG3_볶음김치면.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 107,
+            "name": "mini 곰탕 왕뚜껑",
+            "img": "img/sub_data/ramen/mini_곰탕_왕뚜껑.jpg",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 108,
+            "name": "mini 왕뚜껑",
+            "img": "img/sub_data/ramen/mini_왕뚜껑.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 109,
+            "name": "mini 우동 왕뚜껑",
+            "img": "img/sub_data/ramen/mini_우동_왕뚜껑.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 110,
+            "name": "김치 왕뚜껑",
+            "img": "img/sub_data/ramen/김치_왕뚜껑.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 111,
+            "name": "김치 도시락",
+            "img": "img/sub_data/ramen/김치_도시락.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 112,
+            "name": "꼬간초 비빔면",
+            "img": "img/sub_data/ramen/꼬간초_비빔면.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 113,
+            "name": "꼬꼬면",
+            "img": "img/sub_data/ramen/꼬꼬면.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 114,
+            "name": "꼬꼬면왕컵",
+            "img": "img/sub_data/ramen/꼬꼬면왕컵.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 115,
+            "name": "꼬들김 비빔면",
+            "img": "img/sub_data/ramen/꼬들김_비빔면.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 116,
+            "name": "남자라면",
+            "img": "img/sub_data/ramen/남자라면.png",
+            "href": "#",
+            "category": "ramen"
+        },
+        {
+            "id": 117,
+            "name": "뽀로로스파게티",
+            "img": "img/sub_data/ramen/뽀로로스파게티.png",
+            "href": "#",
+            "category": "ramen"
+        }
+    ]
+}

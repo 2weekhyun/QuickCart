@@ -1,0 +1,25 @@
+{
+    "MobileRamenData": [
+        {
+            "id": 41,
+            "name": "진라면-순한맛",
+            "img": "img/main_data/진라면_순한맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 42,
+            "name": "진라면-매운맛",
+            "img": "img/main_data/진라면_매운맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 43,
+            "name": "컵누들-로제맛",
+            "img": "img/main_data/컵누들_로제맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        }
+    ]
+}

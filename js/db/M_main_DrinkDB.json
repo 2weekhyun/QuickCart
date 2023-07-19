@@ -1,0 +1,25 @@
+{
+    "MobileDrinkData": [
+        {
+            "id": 47,
+            "name": "맑은샘 수",
+            "img": "img/main_data/맑은샘_수.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 48,
+            "name": "비락식혜",
+            "img": "img/main_data/비락식혜.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 49,
+            "name": "뿌요소다",
+            "img": "img/main_data/뿌요소다.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "DeskRamenData": [
+        {
+            "id": 1,
+            "name": "진라면-순한맛",
+            "img": "img/main_data/진라면_순한맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 2,
+            "name": "진라면-매운맛",
+            "img": "img/main_data/진라면_매운맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 3,
+            "name": "컵누들-로제맛",
+            "img": "img/main_data/컵누들_로제맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 4,
+            "name": "컵누들-짜장맛",
+            "img": "img/main_data/컵누들_짜장맛.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        },
+        {
+            "id": 5,
+            "name": "열라면",
+            "img": "img/main_data/열라면.jpg",
+            "href": "sub_ramen.html",
+            "category": "ramen"
+        }
+    ]
+}

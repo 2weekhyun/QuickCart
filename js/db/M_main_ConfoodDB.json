@@ -1,0 +1,25 @@
+{
+    "MobileConfoodData": [
+        {
+            "id": 50,
+            "name": "Chefood 황태미역국",
+            "img": "img/main_data/Chefood_황태미역국.png",
+            "href": "sub_confood.html",
+            "category": "confood"
+        },
+        {
+            "id": 51,
+            "name": "Chefood 닭개장",
+            "img": "img/main_data/Chefood_닭개장.png",
+            "href": "sub_confood.html",
+            "category": "confood"
+        },
+        {
+            "id": 52,
+            "name": "Chefood 유부주머니 전골",
+            "img": "img/main_data/Chefood_유부주머니_전골.png",
+            "href": "sub_confood.html",
+            "category": "confood"
+        }
+    ]
+}

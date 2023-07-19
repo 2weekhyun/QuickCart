@@ -1,0 +1,39 @@
+{
+    "TabletSnackData": [
+        {
+            "id": 26,
+            "name": "페어링바이츠 통밀 베이글칩",
+            "img": "img/main_data/페어링바이츠_통밀_베이글칩.jpg",
+            "href": "sub_snack.html",
+            "category": "snack"
+        },
+        {
+            "id": 27,
+            "name": "꿀버터 고구마맛 사또밥",
+            "img": "img/main_data/꿀버터고구마맛_사또밥.jpg",
+            "href": "sub_snack.html",
+            "category": "snack"
+        },
+        {
+            "id": 28,
+            "name": "쌀로별 뽀빠이 강정",
+            "img": "img/main_data/쌀로별뽀빠이강정.jpg",
+            "href": "sub_snack.html",
+            "category": "snack"
+        },
+        {
+            "id": 29,
+            "name": "[삼양식품] 짱구",
+            "img": "img/main_data/[삼양식품] 짱구.jpg",
+            "href": "sub_snack.html",
+            "category": "snack"
+        },
+        {
+            "id": 30,
+            "name": "밀크전병(딸기맛)",
+            "img": "img/main_data/밀크전병(딸기맛).jpg",
+            "href": "sub_snack.html",
+            "category": "snack"
+        }
+    ]
+}

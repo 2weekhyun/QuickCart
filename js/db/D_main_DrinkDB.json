@@ -1,0 +1,39 @@
+{
+    "DeskDrinkData": [
+        {
+            "id": 11,
+            "name": "맑은샘 수",
+            "img": "img/main_data/맑은샘_수.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 12,
+            "name": "비락식혜",
+            "img": "img/main_data/비락식혜.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 13,
+            "name": "뿌요소다",
+            "img": "img/main_data/뿌요소다.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 14,
+            "name": "산타페-오리지널",
+            "img": "img/main_data/산타페_오리지널.png",
+            "href": "sub_drink.html",
+            "category": "drink"
+        },
+        {
+            "id": 15,
+            "name": "잭앤펄스 프로틴드롭",
+            "img": "img/main_data/잭앤펄스_프로틴드롭.jpg",
+            "href": "sub_drink.html",
+            "category": "drink"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+@charset "UTF-8"; 
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+body { 
+    font-family: 'Pretendard-Regular', Verdana, Geneva, Tahoma, sans-serif;
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #3D496B;
+}
+ul:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* Desktop */
+@media (min-width: 913px) {
+    #T_wrap, #M_wrap {display: none;}
+    #D_wrap .signIn_wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        margin: 7% auto;
+        height: 100%;
+        padding: 50px 0;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow-y: hidden;
+    }
+
+    .logo {
+        display: block;
+        width: 120px;
+        height: 120px;
+        background: url('../img/main_logo.png')no-repeat center center / 100%;
+        margin: 0 auto;
+    }
+    .logo a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* login area */
+    .login_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .login_area label input {
+        width: 250px;
+        height: 40px;
+        border: 2px solid #3D496B;
+    }
+    /* login area end */
+
+    .login_btn {
+        margin-top: 30px;
+        width: 255px;
+        height: 50px;
+        background-color: #3D496B;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .find {
+        position: relative;
+        margin-top: 10px;
+    }
+    .find button {
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .find button:first-child:after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 84px;
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: #3D496B;
+    }
+
+    .go_signUp {margin-top: 40px;}
+    .go_signUp p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .singUp_btn {
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        background-color: #f5f5f5;
+        color: #3D496B;
+        border: 1px solid #3D496B;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+/* Desktop end */
+
+
+/* Tablet */
+@media (min-width:766px) and (max-width: 912px) {
+    #D_wrap, #M_wrap {display: none;}
+    #T_wrap .signIn_wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        margin: 16% auto;
+        padding: 50px 0;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .logo {
+        display: block;
+        width: 120px;
+        height: 120px;
+        background: url('../img/main_logo.png')no-repeat center center / 100%;
+        margin: 0 auto;
+    }
+    .logo a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* login area */
+    .login_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .login_area label input {
+        width: 250px;
+        height: 40px;
+        border: 2px solid #3D496B;
+    }
+    /* login area end */
+
+    .login_btn {
+        margin-top: 30px;
+        width: 255px;
+        height: 50px;
+        background-color: #3D496B;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .find {
+        position: relative;
+        margin-top: 10px;
+    }
+    .find button {
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .find button:first-child:after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 84px;
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: #3D496B;
+    }
+
+    .go_signUp {margin-top: 40px;}
+    .go_signUp p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .singUp_btn {
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        background-color: #f5f5f5;
+        color: #3D496B;
+        border: 1px solid #3D496B;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+/* Tablet end */
+
+
+/* Mobile */
+@media (min-width: 360px) and (max-width:767px){
+    #D_wrap, #T_wrap {display: none;}
+    #M_wrap .signIn_wrap {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        height: 100%;
+        margin: 15% auto;
+        padding: 50px 0;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .logo {
+        display: block;
+        width: 80px;
+        height: 80px;
+        background: url('../img/main_logo.png')no-repeat center center / 100%;
+        margin: 0 auto;
+    }
+    .logo a {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* login area */
+    .login_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .login_area label input {
+        width: 200px;
+        height: 40px;
+    }
+    /* login area end */
+
+    .login_btn {
+        margin-top: 30px;
+        width: 250px;
+        height: 50px;
+        background-color: #3D496B;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .find {
+        position: relative;
+        margin-top: 10px;
+    }
+    .find button {
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    .find button:first-child:after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 84px;
+        display: block;
+        width: 1px;
+        height: 15px;
+        background-color: #3D496B;
+    }
+
+    .go_signUp {margin-top: 40px;}
+    .go_signUp p {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .singUp_btn {
+        margin-top: 10px;
+        width: 250px;
+        height: 50px;
+        background-color: #f5f5f5;
+        color: #3D496B;
+        border: 1px solid #3D496B;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+/* Mobile */

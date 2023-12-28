@@ -3,84 +3,84 @@
         {
             "id": 156,
             "name": "[삼양식품] 짱구",
-            "img": "img/sub_data/snack/[삼양식품] 짱구.jpg",
+            "img": "../img/sub_data/snack/[삼양식품] 짱구.jpg",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 157,
             "name": "콘초-초코맛",
-            "img": "img/sub_data/snack/가나슈-콘초.jpg",
+            "img": "../img/sub_data/snack/가나슈-콘초.jpg",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 158,
             "name": "감자깡",
-            "img": "img/sub_data/snack/감자깡.png",
+            "img": "../img/sub_data/snack/감자깡.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 159,
             "name": "겉바속바 감튀",
-            "img": "img/sub_data/snack/겉바속바_감튀.png",
+            "img": "../img/sub_data/snack/겉바속바_감튀.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 160,
             "name": "고구마깡",
-            "img": "img/sub_data/snack/고구마깡.png",
+            "img": "../img/sub_data/snack/고구마깡.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 161,
             "name": "고메포테토",
-            "img": "img/sub_data/snack/고메포테토.png",
+            "img": "../img/sub_data/snack/고메포테토.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 162,
             "name": "꿀꽈배기",
-            "img": "img/sub_data/snack/꿀꽈배기.png",
+            "img": "../img/sub_data/snack/꿀꽈배기.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 163,
             "name": "꿀버터 고구마맛 사또밥",
-            "img": "img/sub_data/snack/꿀버터고구마맛_사또밥.jpg",
+            "img": "../img/sub_data/snack/꿀버터고구마맛_사또밥.jpg",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 164,
             "name": "닭다리",
-            "img": "img/sub_data/snack/닭다리.png",
+            "img": "../img/sub_data/snack/닭다리.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 165,
             "name": "닭다리 너겟",
-            "img": "img/sub_data/snack/닭다리_너겟.png",
+            "img": "../img/sub_data/snack/닭다리_너겟.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 166,
             "name": "딸기 바나나킥",
-            "img": "img/sub_data/snack/딸기_바나나킥.png",
+            "img": "../img/sub_data/snack/딸기_바나나킥.png",
             "href": "#",
             "category": "snack"
         },
         {
             "id": 167,
             "name": "메이플콘",
-            "img": "img/sub_data/snack/메이플콘.jpg",
+            "img": "../img/sub_data/snack/메이플콘.jpg",
             "href": "#",
             "category": "snack"
         }

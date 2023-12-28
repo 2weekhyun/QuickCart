@@ -340,14 +340,14 @@ body {
     }
 
     /*toggle box*/
-    .T_menu_trigger {
+    .menu_trigger {
         position: relative;
         display: block;
         width: 35px;
         height: 25px;
         margin: 8px 25px 0 0;
     }
-    .T_menu_trigger span {
+    .menu_trigger span {
         position: absolute;
         right: 0;
         width: 35px;
@@ -356,21 +356,21 @@ body {
         box-sizing: border-box;
         background-color: #fff;
     }
-    .T_menu_trigger span:nth-of-type(1) {top: 0px;}
-    .T_menu_trigger span:nth-of-type(2) {top: 10px;}
-    .T_menu_trigger span:nth-of-type(3) {top: 20px;}
-    .T_menu_trigger.active span:nth-of-type(1) {transform: translateY(10px) rotate(-135deg);}
-    .T_menu_trigger.active span:nth-of-type(2) {opacity: 0;}
-    .T_menu_trigger.active span:nth-of-type(3) {transform: translateY(-10px) rotate(135deg);}
+    .menu_trigger span:nth-of-type(1) {top: 0px;}
+    .menu_trigger span:nth-of-type(2) {top: 10px;}
+    .menu_trigger span:nth-of-type(3) {top: 20px;}
+    .menu_trigger.active span:nth-of-type(1) {transform: translateY(10px) rotate(-135deg);}
+    .menu_trigger.active span:nth-of-type(2) {opacity: 0;}
+    .menu_trigger.active span:nth-of-type(3) {transform: translateY(-10px) rotate(135deg);}
     /*toggle box end*/
     
     /* nav */
-    #T_nav {
+    #nav {
         position: relative;
         width: 100%;
         height: 100%;
     }
-    .T_nav_wrap {
+    .nav_wrap {
         position: absolute;
         top: 0;
         right: -45%;
@@ -383,11 +383,11 @@ body {
         z-index: 100;
         transition: ease-in 0.3s;
     }
-    .T_nav_wrap.open {right: 0;}
-    .T_nav_wrap > div {margin: 30px 0 20px 0;}
+    .nav_wrap.open {right: 0;}
+    .nav_wrap > div {margin: 30px 0 20px 0;}
 
-    .T_sign > div:first-child {margin-bottom: 19px;}
-    .T_sign > div:first-child a {
+    .sign > div:first-child {margin-bottom: 19px;}
+    .sign > div:first-child a {
         display: inline-block;
         color: #fff;
         font-weight: 600;
@@ -395,7 +395,7 @@ body {
         padding: 23px 100px;
         border-radius: 10px;
     }
-    .T_sign > div:last-child a {
+    .sign > div:last-child a {
         display: inline-block;
         font-size: 18px;
         color: #3C486B;
@@ -406,22 +406,22 @@ body {
         border-radius: 10px;
     }
 
-    .T_nav_list {
+    .nav_list {
         width: 100%;
         height: 100%;
     }
-    .T_nav_list ul {
+    .nav_list ul {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         row-gap: 15px;
     }
-    .T_nav_list ul li {
+    .nav_list ul li {
         width: 100%;
         height: 100px;
     }
-    .T_nav_list ul li a {
+    .nav_list ul li a {
         display: inline-block;
         width: 100%;
         height: 100%;
@@ -431,13 +431,13 @@ body {
         line-height: 6.5rem;
         text-align: center;
     }
-    .T_nav_list ul li:nth-child(1) {background: #FF6D60;}
-    .T_nav_list ul li:nth-child(2) {background: #F7D060;}
-    .T_nav_list ul li:nth-child(3) {background: #F3E99F;}
-    .T_nav_list ul li:nth-child(3) a {color: #111;}
-    .T_nav_list ul li:nth-child(4) {background: #98D8AA;}
+    .nav_list ul li:nth-child(1) {background: #FF6D60;}
+    .nav_list ul li:nth-child(2) {background: #F7D060;}
+    .nav_list ul li:nth-child(3) {background: #F3E99F;}
+    .nav_list ul li:nth-child(3) a {color: #111;}
+    .nav_list ul li:nth-child(4) {background: #98D8AA;}
 
-    .T_nav_open {
+    .nav_open {
         display: none;
         position: fixed;
         top: 100px;
@@ -446,7 +446,7 @@ body {
         background-color: rgba(0,0,0,0.5);
         z-index: 99;
     }
-    .T_nav_open.open {display: block;}
+    .nav_open.open {display: block;}
     /* nav end */
     /* header end */
 
@@ -743,14 +743,14 @@ body {
     }
 
     /*toggle box*/
-    .menu_trigger {
+    .M_menu_trigger {
         position: relative;
         display: block;
         width: 35px;
         height: 25px;
         margin: 5px 20px 0 0;
     }
-    .menu_trigger span {
+    .M_menu_trigger span {
         position: absolute;
         right: 0;
         width: 35px;
@@ -759,12 +759,12 @@ body {
         box-sizing: border-box;
         background-color: #fff;
     }
-    .menu_trigger span:nth-of-type(1) {top: 0px;}
-    .menu_trigger span:nth-of-type(2) {top: 10px;}
-    .menu_trigger span:nth-of-type(3) {top: 20px;}
-    .menu_trigger.active span:nth-of-type(1) {transform: translateY(10px) rotate(-135deg);}
-    .menu_trigger.active span:nth-of-type(2) {opacity: 0;}
-    .menu_trigger.active span:nth-of-type(3) {transform: translateY(-10px) rotate(135deg);}
+    .M_menu_trigger span:nth-of-type(1) {top: 0px;}
+    .M_menu_trigger span:nth-of-type(2) {top: 10px;}
+    .M_menu_trigger span:nth-of-type(3) {top: 20px;}
+    .M_menu_trigger.active span:nth-of-type(1) {transform: translateY(10px) rotate(-135deg);}
+    .M_menu_trigger.active span:nth-of-type(2) {opacity: 0;}
+    .M_menu_trigger.active span:nth-of-type(3) {transform: translateY(-10px) rotate(135deg);}
     /*toggle box end*/
     
     /* nav */
@@ -850,7 +850,7 @@ body {
         overflow-y: scroll;
         margin: 0 auto;
     }
-    .nav_open {
+    .M_nav_open {
         display: none;
         position: fixed;
         top: 80px;
@@ -860,7 +860,7 @@ body {
         z-index: 99;
         transition: ease-in 0.3s;
     }
-    .nav_open.open {
+    .M_nav_open.open {
         display: block;
         transform: translateX(0%);
     }
@@ -913,7 +913,7 @@ body {
         width: 98%;
         margin: 0 auto;
     }
-    .option_btn, .lists_btn {
+    .M_option_btn, .M_lists_btn {
         position: relative;
         width: 100px;
         height: 40px;
@@ -926,7 +926,7 @@ body {
         outline: none;
         cursor: pointer;
     }
-    .option_btn:after, .lists_btn:after {
+    .M_option_btn:after, .M_lists_btn:after {
         content: '';
         position: absolute;
         top: 8px;
@@ -952,7 +952,7 @@ body {
         background-color: #98D8AA;
         color: #fff;
     }
-    .optionLists, .lists {
+    .M_optionLists, .M_lists {
         display: none;
         position: absolute;
         top: auto;
@@ -965,15 +965,15 @@ body {
         overflow-y: auto;
         z-index: 99;
     }
-    .optionLists {right: 115px;}
-    .optionLists li, .lists li {
+    .M_optionLists {right: 115px;}
+    .M_optionLists li, .M_lists li {
         width: 100%;
         height: 40px;
         text-align: center;
         border-bottom: 1px solid #eee;
     }
-    .optionLists li:last-child, .lists li:last-child {border-bottom: none;}
-    .optionLists li a , .lists li a {
+    .M_optionLists li:last-child, .M_lists li:last-child {border-bottom: none;}
+    .M_optionLists li a , .M_lists li a {
         display: inline-block;
         width: 100%;
         height: 100%;
@@ -982,11 +982,12 @@ body {
     }
     .select:last-child {margin-left: 15px;}
 
-    .optionLists.down, .lists.down {
+    .M_optionLists.down, .M_lists.down {
         display: block;
         transition: 0.3s;
     }
     /* brand list end */
+    /* dropBoxes end */
 
     /* M_ItemList */
     .M_ItemList {

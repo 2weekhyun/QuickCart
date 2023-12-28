@@ -2,7 +2,7 @@ let products;
 let myProduct;
 
 async function getJson(){
-    const response = await fetch("js/db/M_main_SnackDB.json");
+    const response = await fetch("js/db/M_main_snackDB.json");
     products = await response.json();
     return products;
 }

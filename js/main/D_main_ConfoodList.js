@@ -27,8 +27,8 @@ const createItem = (product)=>{
     li.id = product.id;
     li.classList = 'D_items';
 
-    p.className = 'items_name';
     p.innerHTML = product.name;
+    p.className = 'items_name';
 
     D_confood.append(li)
     li.append(a)

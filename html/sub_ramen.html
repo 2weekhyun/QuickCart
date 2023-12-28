@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀵카트-라면</title>
+    <link href="../css/reset.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/sub.css" rel="stylesheet" type="text/css"/>
+    <script src="../js/prefixfree.min.js"></script>
+    <script defer src="../js/toggleBtn.js"></script>
+    <script defer src="../js/sub/brandList.js"></script>
+</head>
+<body>
+  <!-- Desktop -->
+  <div id="D_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="header_top">
+          <h1><a href="../index.html"></a></h1>
+          <div class="log_list">
+            <button onclick="location.href='sign_in.html'">로그인</button>
+            <button onclick="location.href='sign_up.html'">회원가입</button>
+            <button>장바구니</button>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <ul>
+            <li><a href="sub_ramen.html">라면</a></li>
+            <li><a href="sub_snack.html">스낵</a></li>
+            <li><a href="sub_drink.html">음료</a></li>
+            <li><a href="sub_confood.html">간편식</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="contents">
+      <div class="contents_wrap">
+        <div class="sub_banner Ramen_banner">
+          <div class="sub_banner_text black_text">
+            <p>삼시세끼 다른 맛으로!</p>
+            <p>라면</p>
+          </div>
+        </div>
+
+        <div class="D_Contents">
+          <div class="optionMenu RamenOption">
+            <div class="Type_wrap">
+              <h3>종류</h3>
+              <label><input type="checkbox"><span>전체</span></label>
+              <label><input type="checkbox"><span>일반라면</span></label>
+              <label><input type="checkbox"><span>짜장라면</span></label>
+              <label><input type="checkbox"><span>짬뽕라면</span></label>
+              <label><input type="checkbox"><span>우동라면</span></label>
+              <label><input type="checkbox"><span>볶음면</span></label>
+              <label><input type="checkbox"><span>비빔면</span></label>
+              <label><input type="checkbox"><span>냉면/메밀</span></label>
+            </div>
+            <div class="brand_wrap">
+              <h3>브랜드</h3>
+              <label><input type="checkbox"><span>오뚜기</span></label>
+              <label><input type="checkbox"><span>농심</span></label>
+              <label><input type="checkbox"><span>삼양</span></label>
+              <label><input type="checkbox"><span>팔도</span></label>
+              <label><input type="checkbox"><span>롯데</span></label>
+            </div>
+          </div>
+          <div class="D_ItemList">
+            <div class="D_allItem_title"><h1>전체</h1></div>
+            <div class="D_allItem">
+              <ul class="D_allItemUl">
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer_wrap">
+            <div class="f_left">
+              <ul>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+              </ul>
+              <div class="f_address">
+                <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+              </div>
+              <div class="copyright">
+                <span>Copyright ⓒ quickcart/index.html</span>
+                <div class="f_logo"></div>
+              </div>
+            </div>
+            <div class="f_right">
+              <p>유종석 | <span>mildmocha175@naver.com</span></p>
+              <p>이민희 | <span>minijjan@naver.com</span></p>
+              <p>이주현 | <span>zm0625@naver.com</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  </div>
+  <!-- Desktop end -->
+
+
+  <!-- Tablet -->
+  <div id="T_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="header_top">
+          <h1><a href="../index.html"></a></h1>
+          <div class="menu_trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="nav">
+          <div class="nav_wrap">
+            <div class="sign">
+              <div><a href="sign_in.html">로그인</a></div>
+              <div><a href="sign_up.html">회원가입</a></div>
+            </div>
+            <div class="nav_list">
+              <ul>
+                <li><a href="sub_ramen.html">라면</a></li>
+                <li><a href="sub_snack.html">스낵</a></li>
+                <li><a href="sub_drink.html">음료</a></li>
+                <li><a href="sub_confood.html">간편식</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="T_contents">
+      <div class="contents_wrap">
+        <div class="sub_banner Ramen_banner">
+          <div class="sub_banner_text black_text">
+            <p>삼시세끼 다른 맛으로!</p>
+            <p>라면</p>
+          </div>
+        </div>
+        <div class="dropBoxes">
+          <div class="drop_box option_box">
+            <div class="option_list">
+              <button class="option_btn ramen_btn">종류</button>
+              <ul class="optionLists">
+                <li><a href="#">전체</a></li>
+                <li><a href="#">일반라면</a></li>
+                <li><a href="#">짜장라면</a></li>
+                <li><a href="#">짬뽕라면</a></li>
+                <li><a href="#">우동라면</a></li>
+                <li><a href="#">볶음면</a></li>
+                <li><a href="#">비빔면</a></li>
+                <li><a href="#">냉면/메밀</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="drop_box">
+            <div class="brand_list">
+              <button class="lists_btn ramen_btn">브랜드</button>
+              <ul class="lists">
+                <li><a href="#">오뚜기</a></li>
+                <li><a href="#">농심</a></li>
+                <li><a href="#">삼양</a></li>
+                <li><a href="#">팔도</a></li>
+                <li><a href="#">롯데</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="T_ItemList">
+          <div class="T_allItem_title"><h1>전체</h1></div>
+          <div class="T_allItem">
+            <ul class="T_allItemUl">
+            </ul>
+          </div>
+        </div>
+        <div class="nav_open"></div>
+        <div class="T_footer">
+          <div class="T_footer_wrap">
+            <div class="T_f_left">
+              <ul>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+              </ul>
+              <div class="T_f_address">
+                <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+              </div>
+              <div class="T_copyright">
+                <span>Copyright ⓒ quickcart/index.html</span>
+                <div class="T_f_logo"></div>
+              </div>
+            </div>
+            <div class="T_f_right">
+              <p>유종석 | <span>mildmocha175@naver.com</span></p>
+              <p>이민희 | <span>minijjan@naver.com</span></p>
+              <p>이주현 | <span>zm0625@naver.com</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Tablet end -->
+
+
+  <!-- Mobile -->
+  <div id="M_wrap">
+    <header>
+        <div class="header_wrap">
+          <div class="header_top">
+            <a href="../index.html"><h1>로고img</h1></a>
+            <div class="M_menu_trigger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div id="M_nav">
+            <div class="M_nav_wrap">
+              <div class="M_sign">
+                <div><a href="sign_in.html">로그인</a></div>
+                <div><a href="sign_up.html">회원가입</a></div>
+              </div>
+              <div class="M_nav_list">
+                <ul>
+                  <li><a href="sub_ramen.html">라면</a></li>
+                  <li><a href="sub_snack.html">스낵</a></li>
+                  <li><a href="sub_drink.html">음료</a></li>
+                  <li><a href="sub_confood.html">간편식</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="M_contents">
+      <div class="sub_banner Ramen_banner">
+          <div class="banner_text black_text">
+              <p>삼시세끼 다른 맛으로!</p>
+              <p>라면</p>
+          </div>
+      </div>
+      <div class="dropBoxes">
+        <div class="drop_box option_box">
+          <div class="option_list">
+            <button class="M_option_btn ramen_btn">종류</button>
+            <ul class="M_optionLists">
+              <li><a href="#">전체</a></li>
+              <li><a href="#">일반라면</a></li>
+              <li><a href="#">짜장라면</a></li>
+              <li><a href="#">짬뽕라면</a></li>
+              <li><a href="#">우동라면</a></li>
+              <li><a href="#">볶음면</a></li>
+              <li><a href="#">비빔면</a></li>
+              <li><a href="#">냉면/메밀</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="drop_box">
+          <div class="brand_list">
+            <button class="M_lists_btn ramen_btn">브랜드</button>
+            <ul class="M_lists">
+              <li><a href="#">오뚜기</a></li>
+              <li><a href="#">농심</a></li>
+              <li><a href="#">삼양</a></li>
+              <li><a href="#">팔도</a></li>
+              <li><a href="#">롯데</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="M_ItemList">
+        <div class="M_allItem_title"><h1>전체</h1></div>
+        <div class="M_allItem">
+          <ul class="M_allItemUl">
+          </ul>
+        </div>
+      </div>
+      <div class="M_nav_open"></div>
+      <div class="footer">
+        <div class="footer_wrap">
+          <div class="f_top">
+            <ul>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+          </div>
+          <div class="f_address">
+            <p>서울특별시 강남구 테헤란로5길 24 장연빌딩 5층</p>
+          </div>
+          <div class="f_bottom">
+            <p>유종석<span>mildmocha175@naver.com</span></p>
+            <p>이민희<span>minijjan@naver.com</span></p>
+            <p>이주현<span>zm0625@naver.com</span></p>
+          </div>
+          <div class="copyright">
+            <span>Copyright ⓒ quickcart/index.html</span>
+            <div class="f_logo"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile end -->
+
+
+<script type="module" src="../js/sub/D_sub_RamenList.js"></script>
+<script type="module" src="../js/sub/T_sub_RamenList.js"></script>
+<script type="module" src="../js/sub/M_sub_RamenList.js"></script>
+</body>
+</html>

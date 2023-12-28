@@ -1,21 +1,21 @@
 /* toggle menu */
-const TmenuTrigger = document.querySelector('.T_menu_trigger');
+const menuTrigger = document.querySelector('.menu_trigger');
 const MmenuTrigger = document.querySelector('.M_menu_trigger');
 
-const TnavMenu = document.querySelector('.T_nav_wrap');
-const TnavOpen = document.querySelector('.T_nav_open');
+const navMenu = document.querySelector('.nav_wrap');
+const navOpen = document.querySelector('.nav_open');
 
 const MnavMenu = document.querySelector('.M_nav_wrap');
 const MnavOpen = document.querySelector('.M_nav_open');
 
 
-TmenuTrigger.addEventListener('click', function(){
-    if(TmenuTrigger.classList.toggle('active')){
-        TnavMenu.classList.add('open')
-        TnavOpen.classList.add('open')
+menuTrigger.addEventListener('click', function(){
+    if(menuTrigger.classList.toggle('active')){
+        navMenu.classList.add('open')
+        navOpen.classList.add('open')
     }else{
-        TnavMenu.classList.remove('open')
-        TnavOpen.classList.remove('open')
+        navMenu.classList.remove('open')
+        navOpen.classList.remove('open')
     }
 })
 

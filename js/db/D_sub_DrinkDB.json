@@ -3,105 +3,105 @@
         {
             "id": 61,
             "name": "맑은샘 수",
-            "img": "img/sub_data/drink/맑은샘_수.png",
+            "img": "../img/sub_data/drink/맑은샘_수.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 62,
             "name": "맑은샘 지리산",
-            "img": "img/sub_data/drink/맑은샘_지리산.png",
+            "img": "../img/sub_data/drink/맑은샘_지리산.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 63,
             "name": "비락 생칡즙",
-            "img": "img/sub_data/drink/비락_생칡즙.png",
+            "img": "../img/sub_data/drink/비락_생칡즙.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 64,
             "name": "비락 수정과",
-            "img": "img/sub_data/drink/비락수정과.png",
+            "img": "../img/sub_data/drink/비락수정과.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 65,
             "name": "비락 식혜",
-            "img": "img/sub_data/drink/비락식혜.png",
+            "img": "../img/sub_data/drink/비락식혜.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 66,
             "name": "뽀로로 샘물",
-            "img": "img/sub_data/drink/뽀로로_샘물.png",
+            "img": "../img/sub_data/drink/뽀로로_샘물.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 67,
             "name": "뽀로로 음료",
-            "img": "img/sub_data/drink/뽀로로_음료.png",
+            "img": "../img/sub_data/drink/뽀로로_음료.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 68,
             "name": "뽀로로 홍삼쏙쏙",
-            "img": "img/sub_data/drink/뽀로로_홍삼쏙쏙.png",
+            "img": "../img/sub_data/drink/뽀로로_홍삼쏙쏙.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 69,
             "name": "뿌요소다",
-            "img": "img/sub_data/drink/뿌요소다.png",
+            "img": "../img/sub_data/drink/뿌요소다.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 70,
             "name": "산타페 오리지널",
-            "img": "img/sub_data/drink/산타페_오리지널.png",
+            "img": "../img/sub_data/drink/산타페_오리지널.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 71,
             "name": "산타페 헤이즐넛향",
-            "img": "img/sub_data/drink/산타페_헤이즐넛향.png",
+            "img": "../img/sub_data/drink/산타페_헤이즐넛향.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 72,
             "name": "아이뿌요",
-            "img": "img/sub_data/drink/아이뿌요.png",
+            "img": "../img/sub_data/drink/아이뿌요.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 73,
             "name": "잭앤펄스 프로틴드롭",
-            "img": "img/sub_data/drink/잭앤펄스_프로틴드롭.jpg",
+            "img": "../img/sub_data/drink/잭앤펄스_프로틴드롭.jpg",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 74,
             "name": "쿠퍼스_헛개차",
-            "img": "img/sub_data/drink/쿠퍼스_헛개차.png",
+            "img": "../img/sub_data/drink/쿠퍼스_헛개차.png",
             "href": "#",
             "category": "drink"
         },
         {
             "id": 75,
             "name": "칠성사이다",
-            "img": "img/sub_data/drink/칠성사이다.jpg",
+            "img": "../img/sub_data/drink/칠성사이다.jpg",
             "href": "#",
             "category": "drink"
         }

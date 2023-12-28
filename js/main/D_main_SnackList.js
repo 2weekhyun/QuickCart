@@ -2,7 +2,7 @@ let products;
 let myProduct;
 
 async function getJson(){
-    const response = await fetch("js/db/D_main_SnackDB.json");
+    const response = await fetch("js/db/D_main_snackDB.json");
     products = await response.json();
     return products;
 }
@@ -18,11 +18,11 @@ const createItem = (product)=>{
     const img = document.createElement('img');
     const p = document.createElement('p');
 
-    img.setAttribute('src',product.img);
-    img.classList = 'item_img';
-
     a.setAttribute('href',product.href);
     a.classList = 'item_link';
+
+    img.setAttribute('src',product.img);
+    img.classList = 'item_img';
     
     li.id = product.id;
     li.classList = 'D_items';
